@@ -6,8 +6,8 @@ func main () {
 	fmt.Println("OPERATOR PERBANDINGAN")
 
 
-	var name1 = "ALBAR"
-	var name2 = "ALBAR"
+	var name1 = "Wefy"
+	var name2 = "Tofy"
 
 	fmt.Println(name1 > name2)
 

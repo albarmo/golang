@@ -36,7 +36,7 @@ func main (){
 	slice3 := make([]string, len(slice2), cap(slice2))
 	fmt.Println(slice3, "ini make slice dan sebelum di copy")
 
-	copy(slice3, slice2)	
+	copy(slice3, slice2)
 
 	fmt.Println(slice3, "after copy")
 }

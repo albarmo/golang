@@ -7,22 +7,20 @@ func main (){
 	nickname = "albarms"
 	fmt.Println(nickname)
 
-	var age = 23
-	fmt.Println(age)
-	
-	//  this line will error because variable age was declared with int value
-	// age = "dua puluh tiga tahun"
-	// fmt.Println(age)
+	var firstName = "Albar"
+	var lastName = "Moerhamsa"
+	var age = 24
 
-	firstName := "Albar"
-	lastName := "Moerhamsa"
-	fmt.Println(firstName, lastName)
 
-	var(
-		shesFirstName string =  "Alyaa"
-		shesLastName = "Atiqoh"
-	)
+	// shorthand to declare variable use :=
 
-	fmt.Println(shesFirstName + shesLastName)
+	country := "Indonesia"
 
+
+	// declare multiple variables
+
+	var (hobby = "Learn, Hiking"
+	favoritePerson = "Alyaa Atiqoh")
+
+	fmt.Println(nickname, ".Aka" , firstName, lastName, "age", age,"life in", country, "Hobby", hobby, "favorite person in the world" , favoritePerson)
 }
