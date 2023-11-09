@@ -15,7 +15,7 @@ func TestExecSql(t *testing.T) {
 		}
 	}()
 
-	sqlScript := `INSERT INTO users(id,username,password,email) VALUES (2,"elang","elang","elangmaina@mantab.com")`
+	sqlScript := `INSERT INTO users(user_id,username,password,email) VALUES (2,'elang','elangmania','elangmaina@mantab.com')`
 
 	ctx := context.Background()
 	_, err := db.ExecContext(ctx, sqlScript)
